@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Vagner Guedes - Portfolio</title>
+  <link rel="stylesheet" href="./style.css" />
+  <script src="./script.js"></script>
+</head>
+
+<body>
+  <!-- Navigation Bar -->
+  <section id="home">
+
+    <!-- <div id="home"> -->
+    <header>
+      <div class="profile_name">
+        Vagner Guedes
+        <div class="contact_info">
+          <img src="html_finalprojimages/envelope.png"
+            alt="https://icons8.com/icon/124377/circled-envelope" />vagner.guedes.ads@gmail.com
+        </div>
+        <div style="clear:both;"></div>
+        <div class="contact_info"><img src="html_finalprojimages/phone.png"
+            alt="https://icons8.com/icon/124377/circled-envelope" />+5571996102580</div>
+      </div>
+    </header>
+
+    <nav>
+      <div class="topdiv">
+
+        <a href="#about-me" class="topmenu">About Me</a>
+        <!-- Add the links for Skills, Projects and Recommendation here -->
+        <a href="#skills" class="topmenu">Skills</a>
+        <a href="#projects" class="topmenu">Projects</a>
+        <a href="#recommendations" class="topmenu">Recommendations</a>
+
+      </div>
+      <!--</div> -->
+    </nav>
+  </section>
+
+  <!-- About Me -->
+  <section id="about-me" class="container">
+    <div>
+      <img src="html_finalprojimages/Logo3.gif" class="profile_image" />
+    </div>
+
+    <div>
+      <h1>
+        Hi, I'm Vagner Guedes <img src="html_finalprojimages/icone1.png" width="60px" />
+      </h1>
+      <p>
+        Systems Analysis and Development student passionate about technology. I'm currently studying Systems Analysis at
+        UCSAL and I'm also doing an internship at In9mídia, where I have the opportunity to apply my knowledge in real
+        projects. I've been focusing my studies on HTML, CSS and JavaScript, and I'm making progress in learning Java.
+        I'm looking for new experiences to improve my technical skills and expand my knowledge in software development.
+      </p>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills">
+    <h2>Skills</h2>
+    <div style="clear:both;"></div>
+
+    <!-- Add more skills here -->
+    <div class="all_skills">
+      <div class="skill">
+        <img src="html_finalprojimages/html5.png" />
+        <h6>HTML</h6>
+        <p>1 year experience</p>
+      </div>
+      <div class="skill">
+        <img src="html_finalprojimages/CSS3.png" />
+        <h6>CSS</h6>
+        <p>1 year experience</p>
+      </div>
+      <div class="skill">
+        <img src="html_finalprojimages/js.jpeg" />
+        <h6>JavaScript</h6>
+        <p>1 year experience</p>
+      </div>
+      <div class="skill">
+        <img src="html_finalprojimages/react.png" />
+        <h6>React</h6>
+        <p>1 year experience</p>
+      </div>
+      <div class="skill">
+        <img src="html_finalprojimages/java.png" />
+        <h6>Java</h6>
+        <p>1 year experience</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section class="projects" id="projects">
+    <h2>
+      Projects
+    </h2>
+    <div style="clear:both;"></div>
+
+    <div id="projects-container" class="projects-container">
+      <div class="project-card">
+        <h3>Recipe Website</h3>
+        <ul>
+          <li> I developed a recipe website that allows users to search for and share food recipes. The website was
+            built using HTML, CSS, and JavaScript. Users can browse recipes by categories, add their own recipes, rate
+            recipes, and leave comments. The website has a responsive design to ensure optimal viewing experience on
+            mobile devices.</li>
+        </ul>
+      </div>
+      <hr>
+      <div class="project-card">
+        <h3>Personal Expense Calculator</h3>
+        <ul>
+          <li>I created a personal expense calculator that enables users to track their monthly expenses. The calculator
+            was developed using HTML, CSS, and JavaScript. Users can add their expenses, categorize them, and view
+            charts displaying the distribution of expenses. Additionally, all expenses are stored in a database for
+            users to access at any time.</li>
+        </ul>
+      </div>
+      <hr>
+      <div class="project-card">
+        <h3>Task Management System</h3>
+        <ul>
+          <li>I built a task management system that allows users to organize and track their daily activities. The
+            system was developed using HTML, CSS, JavaScript, and Java for the backend. Users can add, edit, and delete
+            tasks, set deadlines and priorities, and mark tasks as completed. All tasks are stored in a database to
+            ensure data persistence.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <div style="clear:both;"></div>
+
+  <!-- Recommendations -->
+  <section id="recommendations">
+    <h2>Recommendations</h2>
+    <div style="clear:both;"></div>
+    <div class="all_recommendations" id="all_recommendations">
+      <div class="recommendation">
+        <span>&#8220;</span>
+        Vagner Guedes, a passionate Systems Analysis student, possesses exceptional skills in HTML, CSS, JavaScript, and
+        Java. I highly recommend him for any technical opportunity due to his expertise and enthusiasm for technology.
+        <span>&#8221;</span>
+      </div>
+      <div class="recommendation">
+        <span>&#8220;</span>
+        Impressive performance during internship, showcasing quick learning and problem-solving abilities. Valuable
+        asset to any development team.
+        <span>&#8221;</span>
+      </div>
+      <div class="recommendation">
+        <span>&#8220;</span>
+        Vagner Guedes is a dedicated and collaborative individual, continuously seeking knowledge beyond the classroom.
+        With excellent communication skills, he is an exceptional team player in the field of software development.
+        <span>&#8221;</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Recommendation Form -->
+  <section id="contact">
+    <div class="flex_center">
+      <fieldset>
+        <legend class="introduction">Leave a Recommendation</legend>
+        <input type="text" placeholder="Name (Optional)"> <br />
+        <textarea id="new_recommendation" cols="500" rows="10" placeholder="Message"></textarea>
+        <div class="flex_center">
+          <button id="recommend_btn" onclick="addRecommendation()">Submit</button>
+        </div>
+      </fieldset>
+    </div>
+  </section>
+
+  <div class="iconbutton">
+    <a href="#home">
+      <!--Add the code here for the logo to appear and the icon to be actionable-->
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" width="63px">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M15 11.25l-3-3m0 0l-3 3m3-3v7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+      </svg>
+    </a>
+  </div>
+
+  <div class="popup" id="popup" class="flex_center">
+    <img src="html_finalprojimages/checkmark--outline.svg" />
+    <h3><!-- Add appropriate text here-->Thanks for leaving a recommendation!</h3>
+    <button onclick="showPopup(false)">Ok</button>
+  </div>
+</body>
+
+</html>
