@@ -120,6 +120,7 @@ h2 {
   vertical-align: middle;
   margin: 20px;
 }
+
 .download-link {
   display: flex;
   flex-direction: column;
@@ -334,7 +335,7 @@ input, textarea {
   
 }
 
-fieldset {
+fieldset {  
   display: flexbox;
   align-content: center;
   justify-content: center;  
@@ -371,3 +372,4 @@ button:hover {
   text-align: center;
   cursor: pointer;
 }
+
